@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: "Oswald",
+                sans-serif;
+}
+
+.background {
+        background-image: url(./images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+}
+
+.container {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+
+}
+
+#title {
+        font-size: 4rem;
+        color: white;
+}
+
+#title_1 {
+        font-size: 4rem;
+        color: white;
+}
+
+#timing_color {
+        color: white;
+}
+
+.setting {
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+        color: black;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+}
+
+.setting .fa-solid {
+        font-size: 3rem;
+        color: white;
+}
+
+.setting-content {
+        display: flex;
+        gap: 1rem;
+}
+
+.setting-content input {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+}
+
+.setting-content button {
+        padding: 0.5rem 1rem;
+        background-color: darkcyan;
+        border: none;
+        border-radius: 0.2rem;
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+}
+
+.hide {
+        display: none;
+}
+
+.time-container {
+        display: flex;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+}
+
+.time-container h2 {
+        text-align: center;
+        font-size: 2rem;
+}
+
+.time-container div {
+        font-size: 4rem;
+}
